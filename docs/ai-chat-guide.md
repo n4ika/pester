@@ -4,19 +4,21 @@ This file outlines how Orrin’s AI-driven chat system works, how it integrates 
 
 ---
 
-## 🧱 Message Flow (MVP)
+## 🧱 Flow Overview
 
-1. **User submits a message** in the chat interface
-2. **Client sends the message** to the `/chat` controller via Turbo/Stimulus
-3. **Rails server builds a system prompt** using:
+1. User submits message via UI
+2. Stimulus sends request → Rails controller
+3. `ChatGatekeeperService` intercepts if needed
+4. `OpenAIService` builds prompt + sends to GPT-4o sing:
    - User’s current Orrin mode (support/savage)
    - Optional bonus mode flags (e.g. `disable_praise`)
    - User input
-4. **OpenAI API returns a response**, which is streamed back to the UI
+5. `TaskExtractionService` parses task candidates
+6. Turbo streams update chat + task UI
 
 ---
 
-## 🧠 Mode-Based Prompting
+## 🔧 Modes & Prompts
 
 | Mode          | Prompt Template                                                           |
 | ------------- | ------------------------------------------------------------------------- |
@@ -24,7 +26,7 @@ This file outlines how Orrin’s AI-driven chat system works, how it integrates 
 | **Savage**    | Sarcastic, cutting, disappointed mentor. Uses dry wit.                    |
 | **Merciless** | Same as Savage but praise is disabled via a flag (`disable_praise: true`) |
 
-System prompts are pulled from `docs/prompt-templates.md`.
+> Prompts come from: [Prompt Templates](./prompt-templates.md)
 
 ---
 
@@ -40,18 +42,22 @@ System prompts are pulled from `docs/prompt-templates.md`.
 
 ---
 
-## ⚙️ Chat Command Examples (Future Plans)
+## 🧾 Task Enforcement
 
-- `enable savage mode`
-- `disable savage mode`
-- `what’s my focus today?`
-- `summarize my last three tasks`
-- `break this down into subtasks`
+- Orrin may block vague inputs:
+  - _“Work on stuff” → “Try again. Vague goals create vague results.”_
+- GPT responses must favor structure, not fluff.
 
 ---
 
-## 🔮 Ideas for Phase 2+
+## 🛠️ Future Feature
 
+- Chat commands:
+  - `enable savage mode`
+  - `disable savage mode`
+  - `what’s my focus today?`
+  - `summarize my last three tasks`
+  - `break this down into subtasks`
 - Session memory with short-term context
 - Auto-prompt tuning based on user history
 - Embedded task tracking via chat
@@ -59,5 +65,10 @@ System prompts are pulled from `docs/prompt-templates.md`.
 - Chat-generated task rollbacks (“Orrin, undo that.”)
 
 ---
+
+## 🔗 Related
+
+- [Tone System](./tone-system.md)
+- [Architecture](./architecture.md)
 
 _Last updated: July 15, 2025_
