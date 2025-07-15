@@ -24,7 +24,22 @@ Chat with Orrin, your built-in gatekeeper, and get guilt-tripped into actually g
 ## 🚧 Status
 
 > **In early development.**  
-> Initial commit includes project scaffolding, model creation, and database setup. Stay tuned as features like AI task enforcement and chat integration roll out.
+> Initial commit includes project scaffolding, model creation, and database setup. Stay tuned as features like AI task enforcement and chat integration roll out. To follow along, check the [Roadmap](./docs/roadmap.md) and [Architecture](./docs/architecture.md).
+
+---
+
+## 📂 Docs Overview
+
+| File                                                      | Description                                    |
+| --------------------------------------------------------- | ---------------------------------------------- |
+| [`tone-system.md`](./docs/tone-system.md)                 | Defines Orrin's voice rules and mode behaviors |
+| [`orrin-personality.md`](./docs/orrin-personality.md)     | Core identity and philosophical framing        |
+| [`prompt-templates.md`](./docs/prompt-templates.md)       | GPT prompt system messages by mode             |
+| [`sample-interactions.md`](./docs/sample-interactions.md) | Realistic user/Orrin conversations             |
+| [`ai-chat-guide.md`](./docs/ai-chat-guide.md)             | How GPT-4o integrates with the app             |
+| [`architecture.md`](./docs/architecture.md)               | High-level data flow and backend structure     |
+| [`roadmap.md`](./docs/roadmap.md)                         | Milestone checklist and build phases           |
+| [`dev-notes.md`](./docs/dev-notes.md)                     | Implementation decisions and internal log      |
 
 ---
 
@@ -42,13 +57,20 @@ Chat with Orrin, your built-in gatekeeper, and get guilt-tripped into actually g
 ## 📌 Features (Coming Soon)
 
 - ✅ Manual and GPT-assisted task creation/editing
-- 💬 Chat with **Orrin**, your AI accountability partner — available in Support Mode or Savage Mode
+- 💬 Chat with [**Orrin**](./docs/orrin-personality.md), your AI accountability partner — available in Support Mode or Savage Mode
 - 🔐 Secure user authentication (email/password)
 - 📱 Mobile-first design (PWA)
 - 🚫 Task blocking with gatekeeper messages instead of silence
 - 🧠 Mode-based tone system that influences Orrin’s responses and behavior
 
 > ⚠️ Features like deadlines, labels, and prioritization are planned for version 2.
+
+---
+
+### 🖼 Demo Preview
+
+Coming soon: a sneak peek of Orrin’s interface, chat behavior, and real-time task flow.  
+When it's ready, you'll see it here — with slow claps included.
 
 ---
 
@@ -70,7 +92,7 @@ Chat with Orrin, your built-in gatekeeper, and get guilt-tripped into actually g
 
 ## 🧠 Philosophy
 
-Pester isn’t just a productivity tool — it’s accountability with a personality. Powered by GPT-4o, **Orrin** adapts to your working style: gently encouraging in Support Mode or blunt and sarcastic in Savage Mode. Either way, you're getting your tasks done — one way or another.
+Pester isn’t just a productivity tool — it’s accountability with a personality. Powered by GPT-4o, [**Orrin**](./docs/orrin-personality.md) adapts to your working style: gently encouraging in Support Mode or blunt and sarcastic in Savage Mode. Either way, you're getting your tasks done — one way or another.
 
 ---
 
@@ -79,3 +101,5 @@ Pester isn’t just a productivity tool — it’s accountability with a persona
 This project is open source under the [MIT License](./LICENSE).
 
 ---
+
+> “You don’t need motivation. You need momentum.” — Orrin
