@@ -8,6 +8,11 @@ _The AI-powered task enforcer that chats, nags, and gets things done._
 
 ---
 
+> _For the person who endlessly ideates._  
+> _This isn’t one more to-do app — finish what you start._
+
+---
+
 ## 🧷 Badges
 
 ![Rails](https://img.shields.io/badge/Rails-7.1-red?logo=ruby-on-rails)
@@ -73,6 +78,8 @@ _The AI-powered task enforcer that chats, nags, and gets things done._
 ## 🧠 Philosophy
 
 Pester isn’t just a productivity tool — it’s accountability with a personality. Powered by GPT-4o, **Orrin** adapts to your working style: gently encouraging in Support Mode or blunt and sarcastic in Savage Mode. Either way, you're getting your tasks done — one way or another.
+
+> No team mode. No distractions.
 
 ---
 
