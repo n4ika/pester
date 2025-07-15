@@ -1,15 +1,12 @@
 # Pester
 
-_The AI-powered task enforcer that chats, nags, and gets things done._
-
----
-
 ![Pester Banner](./app/assets/banner.svg)
 
----
+**Pester** is your AI-powered task enforcer — a to-do list app with attitude.  
+Built for the person who endlessly ideates, it helps you finish what you start.  
+Chat with Orrin, your built-in gatekeeper, and get guilt-tripped into actually getting things done.
 
-> _For the person who endlessly ideates._  
-> _This isn’t one more to-do app — finish what you start._
+> This isn’t one more to-do app — finish what you start.
 
 ---
 
@@ -21,10 +18,6 @@ _The AI-powered task enforcer that chats, nags, and gets things done._
 ![PWA](https://img.shields.io/badge/PWA-ready-0D1117?logo=googlechrome&logoColor=00FF00)
 ![MIT License](https://img.shields.io/badge/license-MIT-lightgrey)
 ![Status](https://img.shields.io/badge/build-in%20progress-yellow)
-
----
-
-**Pester** is your personal productivity gatekeeper — a hybrid to-do list and AI chatbot that helps you stay accountable (and occasionally roasts you into action). At the heart of it all is **Orrin**, your moody, mode-shifting AI sidekick. Built for solo use, Pester combines task tracking with GPT-4o to enforce completion through tone-based chat interactions.
 
 ---
 
@@ -78,8 +71,6 @@ _The AI-powered task enforcer that chats, nags, and gets things done._
 ## 🧠 Philosophy
 
 Pester isn’t just a productivity tool — it’s accountability with a personality. Powered by GPT-4o, **Orrin** adapts to your working style: gently encouraging in Support Mode or blunt and sarcastic in Savage Mode. Either way, you're getting your tasks done — one way or another.
-
-> No team mode. No distractions.
 
 ---
 
