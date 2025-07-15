@@ -78,6 +78,6 @@ Pester isn’t just a productivity tool — it’s accountability with a persona
 
 ## 📄 License
 
-This project is open source under the [MIT License](LICENSE).
+This project is open source under the [MIT License](./LICENSE).
 
 ---

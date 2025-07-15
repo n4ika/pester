@@ -1,0 +1,39 @@
+<svg width="900" height="160" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title {
+      font-family: monospace;
+      font-size: 18px;
+      white-space: pre;
+    }
+    .subtitle {
+      font-family: monospace;
+      font-size: 14px;
+      fill: #00BB00;
+    }
+  </style>
+  <!-- Outer CRT green border -->
+  <rect x="1" y="1" width="898" height="158" fill="#0D1117" stroke="#00FF00" stroke-width="2"/>
+  
+  <!-- Title text -->
+  <text x="20" y="40" class="title" fill="#00FF00">
+    ██████╗ ███████╗███████╗████████╗███████╗██████╗
+  </text>
+  <text x="20" y="60" class="title" fill="#00FF00">
+    ██╔══██╗██╔════╝██╔════╝╚══██╔══╝██╔════╝██╔══██╗
+  </text>
+  <text x="20" y="80" class="title" fill="#00FF00">
+    ██████╔╝█████╗  ███████╗   ██║   █████╗  ██████╔╝
+  </text>
+  <text x="20" y="100" class="title" fill="#00FF00">
+    ██╔═══╝ ██╔══╝  ╚════██║   ██║   ██╔══╝  ██╔══██╗
+  </text>
+  <text x="20" y="120" class="title" fill="#00FF00">
+    ██║     ███████╗███████║   ██║   ███████╗██║  ██║
+  </text>
+  <text x="20" y="140" class="title" fill="#00FF00">
+    ╚═╝     ╚══════╝╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
+  </text>
+
+  <!-- Subtitle -->
+  <text x="25" y="155" class="subtitle">The AI-powered task enforcer with attitude</text>
+</svg>
