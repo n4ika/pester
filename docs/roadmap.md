@@ -9,8 +9,8 @@ This roadmap breaks down the planned development of Pester across four key phase
 - ✅ Rails + Postgres setup
 - ✅ Stimulus, Turbo, ActionCable
 - ✅ Scaffold models: `User`, `Project`, `Task`, `Message`
-- ⬜ Base styling (SCSS or Tailwind)
-- ⬜ OpenAI service integration
+- ✅ Base styling (SCSS or Tailwind)
+- ✅ OpenAI service integration
 
 ---
 

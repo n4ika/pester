@@ -1,0 +1,10 @@
+<div id="chat-box" data-controller="chat">
+  <div id="messages">
+    <%= render @messages %>
+  </div>
+
+  <%= form_with url: project_messages_path(@project), method: :post, data: { controller: "chat", action: "submit->chat#send" }, html: { id: "chat-form" } do |form| %>
+    <%= form.text_field :content, placeholder: "Say something...", autocomplete: "off" %>
+    <%= form.submit "Send" %>
+  <% end %>
+</div>

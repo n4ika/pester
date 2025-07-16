@@ -77,7 +77,10 @@ When it's ready, you'll see it here — with slow claps included.
 ## 🛠 Dev Log
 
 - **July 15**: Initial commit. Project setup complete, models created and migrated.
-- _(More coming soon...)_
+- **July 15**: SCSS styling framework added (baseline UI setup).
+- **July 14**: Stimulus, Turbo, ActiveCable installed and tested.
+- **July 14**: Created models/controllers for User, Project, Task, Message, and ChatSession.
+- **July 14**: Connected OpenAI API via `OpenAIService` wrapper.
 
 ---
 
